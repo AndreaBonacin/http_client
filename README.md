@@ -13,6 +13,6 @@ A lightweight CLI HTTP client for academic purposes.
   - Based on popular RFC
 
 To run:
-```c
+```
 $ ./client.c
 ```
