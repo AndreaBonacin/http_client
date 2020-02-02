@@ -17,11 +17,11 @@ int main() {
 	s = socket(AF_INET, SOCK_STREAM, 0);
 	if (s == -1){
 		
-		perror("SOCKET FALLITA"); // mette i ':' in automatico + una stringa di errore
+		perror("FAILED SOCKET"); // mette i ':' in automatico + una stringa di errore
 		
 	}
 	
-	indirizzo.sin_family = AF_INET; // va riscritto perchè ci possono essere famiglie compatibili
+	indirizzo.sin_family = AF_INET; // va riscritto perchÃ¨ ci possono essere famiglie compatibili
 	indirizzo.sin_port = htons(80); // http , htons per convertire short in network byte order
 	((unsigned char *)&(indirizzo.sin_addr.s_addr)) [0] = 216; 
 	((unsigned char *)&(indirizzo.sin_addr.s_addr)) [1] = 58;    // singoli byte 0 - 255 dell'indirizzo ip
