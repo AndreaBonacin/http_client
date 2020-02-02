@@ -1,13 +1,11 @@
 
 <p align="center">
-  <img src="actions.png">
+  <img src=".png">
 </p>
 
 # Simple HTTP Client
 
-[![Http Status](https://github.com/actions/http-client/workflows/http-tests/badge.svg)](https://github.com/actions/http-client/actions)
-
-A lightweight CLI HTTP client 
+A lightweight CLI HTTP client for academic purposes.
 
 ## Features
 
